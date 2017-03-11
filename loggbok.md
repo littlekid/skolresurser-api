@@ -41,3 +41,6 @@ Kontakta oss var ett läskigt anonymt formulär. Finns det ingen _person_, eller
   * En stunds intressant läsning: http://www.differencebetween.net/technology/internet/difference-between-xml-and-xhtml/
   * Kan inte låta bli att skumma: http://www.differencebetween.net/technology/software-technology/difference-between-xhtml-and-html5/, och minns den gamla goda tiden. (länk fanns längst ner på sidan difference between xml and xhtml.
   * xhtml -> subset av xml, och det ska fungera att parse:a xhtml med vanliga xml parsers.
+  * Funderar en stund på vad det här betyder: "Det finns två typer av argument: filter som begränsar urvalet och val av vilken typ av refererande dokument man vill få ut (provider / lärosäte, info / kurs, event / kurstillfälle)."
+    * filter som begränsar urvalet
+    * vilken typ av refererande dokument man vill få ut (provider / lärosäte, info / kurs, event / kurstillfälle)
