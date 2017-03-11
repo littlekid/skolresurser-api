@@ -77,6 +77,24 @@ De exempel som visas på sidan är:
 * Läser "EIAcademicType filtrerar på typ av skolform. Giltiga värden finns specificerade i EMIL 2.0 i
 värdeförrådet OrganisationForm." och konstaterar att jag behöver leta upp vilka giltiga skolformer som finns. 
 Tänkte _jag söker på nätet_ efter " EMIL 2.0 i värdeförrådet OrganisationForm", men så kom jag just på att jag väl hade en sida uppe förut med information om Emil, kanske finns det där. Skummar loggboken efter url.
-  
-  
-  
+  * Hittat! (http://www.sis.se/emil)
+* Kan också lägga till att font-storleken på sidan: http://www.sis.se/emil är hemskt liten, speciellt om du sitter på skärm med sisådär upplösning. Inga problem, ju bara att zooma in i webbläsaren... men kanske värt att öka storleken?
+* Börjar med att kolla under rubriken "Värdeförråd", eftersom det står " EMIL 2.0 i värdeförrådet OrganisationForm ".. Men där finns bara [Ämnesvokabulär](https://backweb.antagning.se/nya/vocabExport.jsp?vocabName=subject&lang=sv) och [Examensvokabulär](https://backweb.antagning.se/nya/vocabExport.jsp?vocabName=degree&lang=sv)
+* Kollar vidare på [sidan](http://www.sis.se/emil).
+  * Hittar: [Här hämtar du senaste EMIL-standarden](http://www.sis.se/informationsteknik-kontorsutrustning/it-till%C3%A4mpningar/%C3%B6vrigt/ss-107002013) - Standarden är kostnadsfri men kräver registrering.
+    * Skakar på huvudet åt att det står _köp_ när dokumentet jag söker kostar 0kr.
+    * Tänker "Nu skapar jag ett konto för att kunna ladda ner...".. men konstaterar att det inte är uppenbart hur. Jag testar att klicka på Köp (kunde ju stått "ladda ner/visa") för att se ifall det visar "registrera dig".
+    * Ser på sidan att standarden fastställdes nov 2013, det är nu ~ 3,5 år sedan.
+    * Varukorg visades. Jag testar "Till kassan"-knappen.
+    * Jag inser att jag måste upptäcka den lilla stängda fliken "Jag handlar för första gången på sis.se".   ... och att sidan undrar "Har du rabattkod?" på en produkt som kostar 0kr.
+    * Fast att jag väljer att jag är privatperson, så måste jag fylla i "Organisationsna..." nehe, nu så! Det tog bara lite tid för sidan att ändra om formuläret. Varför måste jag uppge personnummer för att få tillgång till standard för hur vår utbildningsdata i sverige är strukturerad?! INTE OK! Att jag ska behöva registrera mig hos https://www.sis.se, som ju är en separat intresseorganisation, för att komma åt detta. Känner mig ledsen för detta.
+    * Böjer mig för systemet för att komma vidare, eller hmmm, undrar om jag kommer undan med att ange 0:or som personnummer, testar. Fältet för att uppge sitt personnummer är för smalt, som i att alla siffror inte visas framme samtidigt.. så det är lätt att missa att se ifall en har fyllt i allt korrekt eller inte. 
+    * Deeeeeeeet var det värsta. En captcha med bokstäver som rör sig. Seriöst? Klickar på Registrera dig ... men det fungerar inte. Högst oklart varför det inte fungerar. Alla fält är obligatoriska, men jag får ingen information om vilket fält jag inte fyllt i på ett sätt som önskas...
+    * kl: 18:30 - Jag lyckas inte skapa konto, en annan person försökte också, för att hjälpa mig, men lyckas inte logga in, en tredje person lyckas skapa konto, och lyckas logga in, men möts av att dokumentet görs tillgängligt... _inom 48h_. hmmm
+  * Jag ger mig för stunden och accepterar att det finns minst två alternativ (Gymnasieskola och Högskoleutbildning) och att jag säkert helt enkelt kommer kunna se andra val i den data jag sedan laddar ner. Fortsätter med cheat sheet.
+  * ?GetAll&SelectEP=EI är ju hur konstig som helst. "Visa alla dokument, välj lärosäten som kurser".. så läser jag det sista exemplet. Tokrörigt. Varför skulle jag lägga till "GetAll", när det redan finns tre andra sätt att välja att få alla... ?
+
+* Wow! :D Det var alles!!! wohooo!!!
+* Allright! Vidare till nästa steg. Ladda ner all data, gissar att det tar några minuter, och sedan lyckas spara det i vettig form! :D
+
+* Ska klura ut hur jag kan hämta ner all data till en stor XML-fil med Elixir

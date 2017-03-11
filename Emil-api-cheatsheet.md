@@ -38,8 +38,23 @@ Ex: swe, eng
 * Område, koder enligt SCB.
   * [Fyrsiffrig kod för kommun](https://github.com/littlekid/skolresurser-api/blob/master/data/kommunkoder-kommunnamn.csv)
   * ~~Sexsiffrig kod för "kommun och stadsdel / kommundel"~~
-  
+
     ?EEMunicipality=1880,1884
+
+#### ?EIAcademicType=Gymnasieskola,Högskoleutbildning
+Skolform, möjliga val:
+  * Gymnasieskola
+  * Högskoleutbildning
+  * TODO: Kolla i data efter fler alterantiv, eller [här (om du lyckas skapa konto)](http://www.sis.se/informationsteknik-kontorsutrustning/it-till%C3%A4mpningar/%C3%B6vrigt/ss-107002013).
+
+#### ?GetEvent
+Listar alla kurstillfällen
+
+#### ?GetInfo
+Listar alla kurser
+
+#### ?GetProvider
+Listar alla lärosäten
 
 ## Urval (urval är ju ett slags filter? ^^)
 Typ av dokument:
@@ -58,3 +73,5 @@ Går bara att välja om du angivit minst ett filter (VARFÖR?)
     http://supernavet.skolverket.se/SusaNavExport/EmilExporter
     ?EELanguage=swe&SelectEE=EI,EP
 
+### Övrigt
+[Diverse förklaringar](http://www.sis.se/PageFiles/11322/10700%20Bilaga%20C.pdf)
