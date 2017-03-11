@@ -25,20 +25,21 @@ resultatet.
 Endast dokument som uppdaterats sedan ett visst datum.
 
 #### EEFormOfStudy=[distance,normal]
-?EEFormOfStudy=distance
-?EEFormOfStudy=normal
+    ?EEFormOfStudy=distance
+    ?EEFormOfStudy=normal
 - I dokumentationen står det "ett filter för att välja ut utbildningstillfällen som ges på distans eller inte".. men kurser kan väl ha en blandning av utbildning på distans och att en del prov ibland måste skrivas på orten? och "utbildningstillfälle", talar vi inte längre om hela kurser? Varför inte kalla det för _kurs_ om det är en kurs? Och om det inte är kurs, vad är det då?!
 
 #### EELanguage=[lang]
 lang -> **ISO 639-3** (treställiga språkkoder)
 Ex: swe, eng
-?EELanguage=swe
+    ?EELanguage=swe
 
 #### EEMunicipality=<kod>[,<kod>[,...]]
 * Område, koder enligt SCB.
   * [Fyrsiffrig kod för kommun](https://github.com/littlekid/skolresurser-api/blob/master/data/kommunkoder-kommunnamn.csv)
-  ~~* Sexsiffrig kod för "kommun och stadsdel / kommundel"~~
-  ?EEMunicipality=1880,1884
+  * ~~Sexsiffrig kod för "kommun och stadsdel / kommundel"~~
+  
+    ?EEMunicipality=1880,1884
 
 ## Urval (urval är ju ett slags filter? ^^)
 Typ av dokument:
