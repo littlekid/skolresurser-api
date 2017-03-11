@@ -31,6 +31,9 @@ Inga relevanta träffar på dessa sökningar som jag började med:
 * "skolstyrelsen öppen data emil databas utbildningar i sverige"
 * http://www.vinnova.se/sv/Var-verksamhet/Strategiskt-viktiga-kunskapsomraden/Tjanster-och-IKT/Oppen-innovation/Oppna-data/ kom upp i någon av sökningarna, hade kvar fliken, som "värd att skumma igenom". Ser att PTS öppnat upp ett API för att kolla vilken operatör ett telefonnummer är kopplat till. Intressant. Sparat
 Post- och telestyrelsen har skapat ett programmeringsgränssnitt (så kallat API, Application Programming Interface). API:et för tjänsten ”Sök operatör” kan användas för att ta reda på vilken operatör ett visst telefonnummer tillhör. Gränssnitten kan till exempel användas för att bygga så kallade appar till smarta telefoner. http://e-tjanster.pts.se/internet/api
+* 11:46, nu känner jag att jag närmar mig. sökningen "emil xml data utbildningar i sverige", gav mig http://www.sis.se/emil som första resultat. Den bilden känner jag igen! 
+
+
 
 
 
