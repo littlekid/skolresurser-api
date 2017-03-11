@@ -27,5 +27,16 @@ samarbete](http://www.sis.se/PageFiles/11322/TK450%20AG05%20F%c3%b6rvaltning%20E
   * [Ändringscykeln](http://www.sis.se/PageFiles/11322/%c3%84ndringscykeln.pdf)
   * ["Kontakta oss"](http://www.sis.se/innehall/om-sis/SIS-erbjuder-dig/Aktuella-seminarier/fragor_emil1/)
   
-Ändringscykeln gör mig lite mörkrädd, men det ligger säkert en del erfarenhet, bakom sådan struktur. Ser _trögt_ ut.
+  Ändringscykeln gör mig lite mörkrädd, men det ligger säkert en del erfarenhet, bakom sådan struktur. Ser _trögt_ ut.
 Kontakta oss var ett läskigt anonymt formulär. Finns det ingen _person_, eller enhet en kan vända sig till? Är det formuläret enda kontaktvägen in?
+
+* Hoppar tillbaka till apidokumentationen. Vill testa första länken som ges som exempel. Försöker trippelklicka för att markera hela länken, men pdf-en verkar vara felaktigt formaterad, länken går inta att markera och kopiera. 
+  * Kontrollerade att det inte berodde på konstiga zoom-inställningar i webbläsaren. Nepp. Men när jag försöker klistra in länken här i loggboken, så ser jag att hela länken följde med, det var bara textmarkeringen som var underlig.
+  * Länken: http://supernavet.skolverket.se/SusaNavExport/EmilExporter?filter
+  * Spännande! Vad får jag när jag besöker länken?!
+    ... "Unknown filtertype:filter" (besökte länken rakt av i webbläsaren). Så första länken, är till ett teoretiskt, ej faktiskt fungerande alterantiv. Synd.
+  * I dokumentet står det "Det förutsätts att läsaren har kunskap om Svensk Standard SS 10700... ". Hur tänkte ni nu? Ska en verkligen behöva sätta sig in i en slags standard för att alls prata med api:et? Skulle inte tro det. Hela meningen är:
+  Det förutsätts att läsaren har kunskap om Svensk Standard SS 10700 och EMIL 2.0 med avseende på typer, dokument, struktur och värdeförråd.
+  * Jag lägger märke till xhtml, och börjar fundera över hur det skiljer sig ifrån xml. *söker information kring detta*
+  * En stunds intressant läsning: http://www.differencebetween.net/technology/internet/difference-between-xml-and-xhtml/
+  * Kan inte låta bli att skumma: http://www.differencebetween.net/technology/software-technology/difference-between-xhtml-and-html5/, och minns den gamla goda tiden. (länk fanns längst ner på sidan difference between xml and xhtml.
