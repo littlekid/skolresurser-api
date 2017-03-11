@@ -99,3 +99,4 @@ Tänkte _jag söker på nätet_ efter " EMIL 2.0 i värdeförrådet Organisation
 
 * Ska klura ut hur jag kan hämta ner all data till en stor XML-fil med Elixir
 * .. trevliga besökare kom förbi och det tog en stund, men trevligt som vanligt! :D
+* argh! frustrerande! api:et svarar väldigt långsamt.. så när något inte lirar, så undrar en ifall det bara är att vänta en stund till, eller ifall en råkat köra igång en loop som tar lång tid... Detta trots att jag köra att jag endast vill hämta dokuement som uppdaterats senaste 2 dagarna(!)
