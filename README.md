@@ -1,13 +1,13 @@
 # skolresurser-api
 json-api för utbildningsdata är tanken
 
-[ ] Kolla hur jag får ut data, hitta docs för "Emil ngnting", har för mig att det var skolverket som tillgängliggjorde denna data?
-[ ] Hämta data med Elixir.
-[ ] Spara data i db.
-[ ] Få upp api till egna db på api.skolresurser.se, inkl. enklare docs.
-[ ] Få upp allting på vps
-[ ] cronjob som hämtar uppdateringar en gång per dygn kanske.
-[ ] webgränssnitt som konsumerar api:et
+* [ ] Kolla hur jag får ut data, hitta docs för "Emil ngnting", har för mig att det var skolverket som tillgängliggjorde denna data?
+* [ ] Hämta data med Elixir.
+* [ ] Spara data i db.
+* [ ] Få upp api till egna db på api.skolresurser.se, inkl. enklare docs.
+* [ ] Få upp allting på vps
+* [ ] cronjob som hämtar uppdateringar en gång per dygn kanske.
+* [ ] webgränssnitt som konsumerar api:et
 
 Tankar och idéer:
 - Det vore ju trevligt om allmännheten kan bidra med nyckelord och att vi alla kan hjälpas åt att göra utbildningsresurser lättare att hitta och utforska.
