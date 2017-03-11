@@ -6,7 +6,7 @@ json-api för utbildningsdata är tanken
 * [ ] Hämta data med Elixir.
   * [x] Nytt mix projekt.
   * [ ] Lyckas hämta all data och spara som en stor XML.
-    * [ ] Hämta hem listan med länkar till alla dokument.
+    * [x] Hämta hem listan med länkar till alla dokument. Sparas i xml-format, för att itereras över för att hämtas
     * [ ] Iterera över listan med länkar och hämta hem innehållet i alla dokument.
   * [ ] Spara data i db.
 * [ ] Få upp api till egna db på api.skolresurser.se, inkl. enklare docs.
