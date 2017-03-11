@@ -14,3 +14,9 @@ Tankar och idéer:
 - Enklare för utlandsfödda att få hjälp med att hitta kurser och utbildningar, där en kanske inte vet vad som är lämpliga termer att söka på, men kan fylla i intressen och liknande, helt andra ord än vad den som annordnar utbildningen tänkt på.
 - Kombinera denna data med andra källor till fakta, data och kunskap, alltså även tips på e-böcker, kurser, konferenser, hemsidor, böcker, podcasts m.m.m. så att den som vill förkovra sig inom ett ämna ska kunna hitta pålitliga tips, och även se listor på utbildningsmaterial i ordning efter rekommendationer m.m.
 - Lärare kan snabbare och enklare kunna upptäcka relevant material, och kan dela med sig av egna resurser till andra lärare, men också direkt ut till elever.
+
+## Loggbok:
+Inga relevanta träffar på dessa sökningar som jag började med:
+"emil utbildningsdata"
+"utbildningsdata öppen data emil"
+"utbildningsdata sverige"
