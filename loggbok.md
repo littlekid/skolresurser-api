@@ -40,3 +40,4 @@ Kontakta oss var ett läskigt anonymt formulär. Finns det ingen _person_, eller
   * Jag lägger märke till xhtml, och börjar fundera över hur det skiljer sig ifrån xml. *söker information kring detta*
   * En stunds intressant läsning: http://www.differencebetween.net/technology/internet/difference-between-xml-and-xhtml/
   * Kan inte låta bli att skumma: http://www.differencebetween.net/technology/software-technology/difference-between-xhtml-and-html5/, och minns den gamla goda tiden. (länk fanns längst ner på sidan difference between xml and xhtml.
+  * xhtml -> subset av xml, och det ska fungera att parse:a xhtml med vanliga xml parsers.
