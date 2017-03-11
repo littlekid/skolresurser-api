@@ -17,6 +17,9 @@ Tankar och idéer:
 
 ## Loggbok:
 Inga relevanta träffar på dessa sökningar som jag började med:
-"emil utbildningsdata"
-"utbildningsdata öppen data emil"
-"utbildningsdata sverige"
+* "emil utbildningsdata"
+* "utbildningsdata öppen data emil"
+* "utbildningsdata sverige"
+* "öppen utbildningsdata utbildningar sverige"
+
+... "öppen utbildningsdata utbildningar sverige api" visar en undersida på opendata.se som resultat #6. Kanske hittar jag tillbaka den vägen. Kanske borde jag gå in på skolverkets/skolstyrelsens hemsida?
