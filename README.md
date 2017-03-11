@@ -27,7 +27,17 @@ Inga relevanta träffar på dessa sökningar som jag började med:
   ... inget där heller när jag på sidan söker efter "utbildning", detta resultat kommer upp: http://apikatalogen.se/api/skanergy-api
 * http://www.sis.se/ kom upp, men ingen lycka där heller, annat än att "emil" nämns i en pdf där några skriver om samarbete kring att organisera data?
 * Sökte på "skolverket öppen data" och fann: http://opendata.skolverket.se/, den sidan hade gärna fått tipsa om den resurs jag söker efter. Sparar dock denna länk till senare, eftersom det kan vara relevant att även samla information om olika gymnasieutbildningar.
+* "skolstyrelsen öppen data" gav inte heller något
+* "skolstyrelsen öppen data emil databas utbildningar i sverige"
+* http://www.vinnova.se/sv/Var-verksamhet/Strategiskt-viktiga-kunskapsomraden/Tjanster-och-IKT/Oppen-innovation/Oppna-data/ kom upp i någon av sökningarna, hade kvar fliken, som "värd att skumma igenom". Ser att PTS öppnat upp ett API för att kolla vilken operatör ett telefonnummer är kopplat till. Intressant. Sparat
+Post- och telestyrelsen har skapat ett programmeringsgränssnitt (så kallat API, Application Programming Interface). API:et för tjänsten ”Sök operatör” kan användas för att ta reda på vilken operatör ett visst telefonnummer tillhör. Gränssnitten kan till exempel användas för att bygga så kallade appar till smarta telefoner. http://e-tjanster.pts.se/internet/api
+
 
 
 ## Datakällor:
 http://opendata.skolverket.se/
+
+
+
+## Resurser jag vill utforska senare:
+Post- och telestyrelsen har skapat ett programmeringsgränssnitt (så kallat API, Application Programming Interface). API:et för tjänsten ”Sök operatör” kan användas för att ta reda på vilken operatör ett visst telefonnummer tillhör. Gränssnitten kan till exempel användas för att bygga så kallade appar till smarta telefoner. http://e-tjanster.pts.se/internet/api
