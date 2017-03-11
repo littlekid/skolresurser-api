@@ -61,6 +61,16 @@ Kontakta oss var ett läskigt anonymt formulär. Finns det ingen _person_, eller
    - I dokumentationen står det "ett filter för att välja ut utbildningstillfällen som ges på distans eller inte".. men kurser kan väl ha en blandning av utbildning på distans och att en del prov ibland måste skrivas på orten? och "utbildningstillfälle", talar vi inte längre om hela kurser? Varför inte kalla det för _kurs_ om det är en kurs? Och om det inte är kurs, vad är det då?!
   - Under #### EELanguage=[lang], används plötsligt "kurstillfällen". Så är utbildningstillfällen och kurstillfällen samma sak eller olika saker?
   Pratade med en Stefan, väldigt trevlig person ifrån SCB, och det är inte helt klart vad de 6siffriga koderna är, sedan kom vi nog ändå fram till att det var indelningar, stadsdelar, som endast finns i vissa kommuner i Sverige. Fick vidare hjälp ifrån två andra personer ifrån SCB, men det som finns publikt tillgängligt är: 
+  - [URB](http://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__AA__AA0003__AA0003B/IntGr1LUA/?rxid=3c68b00f-670c-4f78-ba5e-9d2ffa559f3f)
+  - [LUA-områden](http://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__AA__AA0003__AA0003B/IntGr1LUA/?rxid=3c68b00f-670c-4f78-ba5e-9d2ffa559f3f)
+  - ... det är alltid något! Börjar med att helt enkelt strunta i 6-siffriga indelningarna, kanske skolverket eller SCB är snälla och delar med sig av dessa om en frågar snällt i ett mail (TODO).
+  ... var var jag? Just det. Område.
+    - Har lärt mig att första två siffrorna i de 4-siffriga kommunkoderna är län. 01 är visst stockholm.
+    - Fanns inte någon färdig tabell med kommunkoder ihop med namn, men det gick att få ut som en del av lista med annan statistik, så genom att hämta t.ex. befolkningsstatistik ifrån SCB (http://www.scb.se/hitta-statistik/statistik-efter-amne/befolkning/befolkningens-sammansattning/befolkningsstatistik/) så fylldes en kolumn med kommunkod och komunens namn i en och samma kolumn, åtskilda med ett mellanslag, så då kunde jag nyttja editor för att snabbt plocka bort allt annat, och sedan skilja kod och namn åt med ett kommatecken, för att snabbt och smidigt kunna lägga in dessa som data att läsa ifrån senare. Just nu har jag bara sparat dessa som en egen .CSV-fil. Lägger till den i repo't.
+
+De exempel som visas på sidan är:
+    ?EEMunicipality=1880,1890
+
   
   
   
