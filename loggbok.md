@@ -108,3 +108,5 @@ Tänkte _jag söker på nätet_ efter " EMIL 2.0 i värdeförrådet Organisation
 ```
 * ... inser att jag bara får länkar till dokument som berättar när de dokumenten uppdaterades/att de är uppdaterade, så att en kan använda dessa ID'n för att hämta de igen, men inga länkar till själva dokumentet.
 * När jag istället hämtar ALLA resurser.. då får jag länkar som faktiskt går till dokument, och då upptäcker jag ``` http://supernavet.skolverket.se/SusaNavExport/EmilObjectExporter?id=232965362&amp;strId=e.fbr.19446.354898 ```, alltså EmilObjectExporter, som ju är en alldeles egen metod (endpoint, lämpligt svenskt namn för det?!).. som inte alls fanns med i dokumentationen. Den åker in i cheat sheet! :)
+* Testar att bara skicka med ID (utan string id)... får samma resurs (testade bara på en resurs), kan tänka mig att vissa saknar vanligt id, och andra saknar string id... d.v.s. Detta:
+http://supernavet.skolverket.se/SusaNavExport/EmilObjectExporter?id=232965362 fungerade utan problem lika bra som med &strId=e.fbr....
