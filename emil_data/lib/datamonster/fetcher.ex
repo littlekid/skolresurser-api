@@ -1,12 +1,15 @@
 defmodule Datamonster.Fetcher do
   def fetch() do
-    #fetch_links() #TODO - Uncomment when you want to work with live data, for now work with links in file! :D
+    fetch_links() #TODO - Uncomment when you want to work with live data, for now work with links in file! :D
     fetch_documents()
   end
 
   defp fetch_links() do
     HTTPoison.start
-    response = HTTPoison.get! "http://supernavet.skolverket.se/SusaNavExport/EmilExporter?UpdatedSince=2017-03-10"
+    # response = HTTPoison.get! "http://supernavet.skolverket.se/SusaNavExport/EmilExporter?UpdatedSince=2017-03-10"
+    # previous (above) only gave me links to documents with information about updates... The one below gives me links to
+    # actual documents with educational data. Also discovered endpoint "EmilObjectExporter?id=232965362"... Nowhere in docs..
+    response = HTTPoison.get! "http://supernavet.skolverket.se/SusaNavExport/EmilExporter"
     xml_list_with_links_to_resources = response.body
 
     links = xml_list_with_links_to_resources
