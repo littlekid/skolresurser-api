@@ -21,3 +21,11 @@ http://www.sis.se/PageFiles/11322/H%c3%a4mta%20EMIL%202.0-information%20fr%c3%a5
 Där har vi den! api-dokumentationen funnen! Har skolverket anstängt sig för att göra api-dokumentationen svår att hitta?
 Ser också att det tydligt står (c) 2013 Skolverket. Varför känner skolverket att det var en relevant och viktig upphovsrättsmarkering? 
 * Flytta ut loggboken till separat fil.
+* Öppnar upp tre länkar ifrån http://www.sis.se/emil, och skummar ifall de kanske är relevanta:
+  * [Förvaltning av SS10700, tillhörande värdeförråd och XML-scheman. Detta dokument beskriver aktuella förhållanden i EMIL 2-
+samarbete](http://www.sis.se/PageFiles/11322/TK450%20AG05%20F%c3%b6rvaltning%20EMIL%202%202014-06-03.pdf)
+  * [Ändringscykeln](http://www.sis.se/PageFiles/11322/%c3%84ndringscykeln.pdf)
+  * ["Kontakta oss"](http://www.sis.se/innehall/om-sis/SIS-erbjuder-dig/Aktuella-seminarier/fragor_emil1/)
+  
+Ändringscykeln gör mig lite mörkrädd, men det ligger säkert en del erfarenhet, bakom sådan struktur. Ser _trögt_ ut.
+Kontakta oss var ett läskigt anonymt formulär. Finns det ingen _person_, eller enhet en kan vända sig till? Är det formuläret enda kontaktvägen in?
