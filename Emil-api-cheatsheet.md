@@ -26,7 +26,7 @@ Går bara att välja om du angivit minst ett filter (VARFÖR?)
 
 ## Exempel
 ### Få ut kurser, som ges på svenska, på högskolor + resp. lärosäte:
-?EELanguage=swe&EIAcademicType=högskoleutbildning&SelectEI=EP
+    ?EELanguage=swe&EIAcademicType=högskoleutbildning&SelectEI=EP
 
 ### Kombinera SELECT: Alla kurstillfällen som ges på svenska, samt kursinformtion och information om lärosäte
-?EELanguage=swe&SelectEE=EI,EP
+    ?EELanguage=swe&SelectEE=EI,EP
