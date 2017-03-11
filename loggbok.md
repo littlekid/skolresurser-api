@@ -44,3 +44,5 @@ Kontakta oss var ett läskigt anonymt formulär. Finns det ingen _person_, eller
   * Funderar en stund på vad det här betyder: "Det finns två typer av argument: filter som begränsar urvalet och val av vilken typ av refererande dokument man vill få ut (provider / lärosäte, info / kurs, event / kurstillfälle)."
     * filter som begränsar urvalet
     * vilken typ av refererande dokument man vill få ut (provider / lärosäte, info / kurs, event / kurstillfälle)
+  * Ska inte "De flesta filter påverkar endast en typ av dokument. ", vara "ett typ av dokument?", att det är dokumentet som är det huvudsakliga? jag förstår ju att det är "en typ". TODO: försöka hitta någon som kan hjälpa mig resonera kring denna fundering
+  * Kännrt mig lite inspirerad till att göra en "Emil cheatsheet". Jag tror att en tabell med information under "Använda filter", med de filter som finns, hade kunnat vara hjälpsamt? Ser nu att alla filter visas i löpande text lite längre ner.
