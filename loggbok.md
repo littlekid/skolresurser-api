@@ -50,3 +50,13 @@ Kontakta oss var ett läskigt anonymt formulär. Finns det ingen _person_, eller
   * Va? Det här upplever jag inte alls logiskt:
     Om ett eventfilter finns angivet kommer exporten alltid att leverera kurstillfällen, oavsett om det finns infofilter angivna. Det beror på att det bildas två mängder som inte berör samma värden (kurser och kurstillfällen). Då snittet av dessa mängder alltid skulle vara tomt, konverteras automatiskt kurserna till tillhörande kurstillfällen. Som exempel kommer följande filterkombination att skicka ut kurstillfällen då det är ett eventfilter (EE) angett. ?EELanguage=swe&EIAcademicType=högskoleutbildnig" - tolkar det ~ som att om du är dum nog att fråga efter något som ger 0 svar, så klurar vi ut att du nog vill ha en del svar ändå, och skickar dig de. ^__^'. Men egentligen handlar det väl helt enkelt om att förklara något riktigt konstigt ändå? Självklart kommer ju kurser och allting annat som matchar att komma med? Filtret är väl där för att exkludera material? TODO: Jag får nog helt enkelt testa att köra dessa två separat, alltså ?EELanguage=swe och ?EIAcademicType=högskoleutbildning för att sedan jämföra med exemplet där båda körs.
   * "Går bara att välja om du angivit minst ett filter" ...vaffö gör de på detta viset?
+  * Hmmmm... vad är det för skillnad på "kurs" och "kurstillfälle"? Jag anar att en kurs, med en och samma beskrivning, kan ges vid flera tillfällen, t.ex. vår och höst, eller kanske 50%-takt vissa perioder och 100%-takt andra perioder, men att det ändå är samma kurs.
+  * Känns lite meningslöst att alls skapa upp cheatsheeten, bättre att bara dra hem all data och själv strukturera upp den vettigt är känslan. Men nu har jag ju börjat...
+  
+* PAUS - lunch. Också träffat och pratat med representanter ifrån Naturvårdsverket och Transportstyrelsen.
+
+  
+  
+  
+  
+  
