@@ -1,5 +1,10 @@
 defmodule Datamonster.Fetcher do
   def fetch() do
+    #fetch_links() #TODO - Uncomment when you want to work with live data, for now work with links in file! :D
+    fetch_documents()
+  end
+
+  defp fetch_links() do
     HTTPoison.start
     response = HTTPoison.get! "http://supernavet.skolverket.se/SusaNavExport/EmilExporter?UpdatedSince=2017-03-10"
     xml_list_with_links_to_resources = response.body
@@ -9,17 +14,35 @@ defmodule Datamonster.Fetcher do
     |> Floki.attribute("href")
     |> Enum.join("\n")
 
-    #cleanup from previous writes
-    File.write! "./data/educational-resources-from-emil.xml", ""
+    #cleanup from previous writes - no longer needed, I've concatenated all items into one string, free to open in write (instead of append) mode.
+    #File.write! "./data/educational-resources-from-emil.xml", ""
 
     # Store all links to resources, so that we can make calls to fetch resources in chunks
     # New line: http://stackoverflow.com/questions/21839803/how-to-append-new-data-onto-a-new-line
     # Acutally looked for info on adding a new line in docs, didn't find it.
-    File.write! "./data/educational-resources-from-emil.xml", links, [:append]
+    #File.write! "./data/educational-resources-from-emil.xml", links, [:append]
+    File.write! "./data/educational-resources-from-emil.xml", links
+
   end
 
   #def fetch_updates() do
   #  HTTPoison.start
   #  response = HTTPoison.get! "http://supernavet.skolverket.se/SusaNavExport/EmilExporter?UpdatedSince=2017-03-03"
   #end
+  #
+
+  defp fetch_documents() do
+    File.stream!("./data/educational-resources-from-emil.xml", [])
+    |> Enum.take(13) # -work with just three during development :D
+    |> Enum.each(fn(url) ->
+       url
+       |> String.replace("\n", "")
+       |> HTTPoison.get!
+       |> store_document
+    end)
+  end
+
+  defp store_document(document_xml) do
+    IO.inspect document_xml.body
+  end
 end
