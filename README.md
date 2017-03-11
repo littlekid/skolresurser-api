@@ -24,3 +24,4 @@ Inga relevanta träffar på dessa sökningar som jag började med:
 * ... "öppen utbildningsdata utbildningar sverige api" visar en undersida på opendata.se som resultat #6. Kanske hittar jag tillbaka den vägen. Kanske borde jag gå in på skolverkets/skolstyrelsens hemsida?
   Undersidan som kom upp: http://www.opendata.se/2010/05/vhs-statistik.html
 * kom på att jag vet att apikatalogen.se finns, kanske hittar jag där.
+  ... inget där heller när jag på sidan söker efter "utbildning", detta resultat kommer upp: http://apikatalogen.se/api/skanergy-api
