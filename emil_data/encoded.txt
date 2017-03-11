@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Victoria Wagman | Programmer, Entrepreneur, Earthling, Learner, Teacher, Activist, Traveller.. and a talkative one too!</title>
+    <meta name="description" content="Victoria Wagman - Prassionate Programmer - Enthusiastic Entrepreneur - Engaged Earthling">
+
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header>
+      <img src="/images/victoria-wagman.jpg" class="center round" id="victoria-image">
+      <div>
+        <h1>Victoria Wagman</h1>
+        <h2 class="center">
+          <span>Passionate programmer.</span> <span>Enthusiastic entrepreneur.</span> <span>Talkative thinker.</span> <span>Healthy human.</span> <span>Engaged earthling.</span>
+        </h2>
+      </div>
+    </header>
+  </body>
+</html>
