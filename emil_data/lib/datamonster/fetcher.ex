@@ -1,6 +1,6 @@
 defmodule Datamonster.Fetcher do
   def fetch() do
-    fetch_links() #TODO - Uncomment when you want to work with live data, for now work with links in file! :D
+    #fetch_links() #TODO - Uncomment when you want to work with live data, for now work with links in file! :D
     fetch_documents()
   end
 
@@ -36,7 +36,7 @@ defmodule Datamonster.Fetcher do
 
   defp fetch_documents() do
     File.stream!("./data/educational-resources-from-emil.xml", [])
-    |> Enum.take(13) # -work with just three during development :D
+    |> Enum.take(4) # -work with just three during development :D
     |> Enum.each(fn(url) ->
        url
        |> String.replace("\n", "")
