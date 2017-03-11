@@ -34,6 +34,14 @@ Post- och telestyrelsen har skapat ett programmeringsgränssnitt (så kallat API
 
 
 
+## Användarvänligt API
+Hur vill jag att json-api:et ska fungera när jag konsumerar det? 
+Hur skulle andra vilja att det lirar?
+Alltid inspirerande: How to design a good api, and why it matters:
+https://www.youtube.com/watch?v=aAb7hSCtvGw
+Här fanns lite åsikter att skumma igenom:
+http://www.vinnova.se/sv/Var-verksamhet/Strategiskt-viktiga-kunskapsomraden/Tjanster-och-IKT/Oppen-innovation/Oppna-data/
+
 ## Datakällor:
 http://opendata.skolverket.se/
 
