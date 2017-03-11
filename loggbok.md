@@ -98,3 +98,4 @@ Tänkte _jag söker på nätet_ efter " EMIL 2.0 i värdeförrådet Organisation
 * Allright! Vidare till nästa steg. Ladda ner all data, gissar att det tar några minuter, och sedan lyckas spara det i vettig form! :D
 
 * Ska klura ut hur jag kan hämta ner all data till en stor XML-fil med Elixir
+* .. trevliga besökare kom förbi och det tog en stund, men trevligt som vanligt! :D
