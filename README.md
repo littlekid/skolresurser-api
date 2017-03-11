@@ -33,8 +33,10 @@ Inga relevanta träffar på dessa sökningar som jag började med:
 Post- och telestyrelsen har skapat ett programmeringsgränssnitt (så kallat API, Application Programming Interface). API:et för tjänsten ”Sök operatör” kan användas för att ta reda på vilken operatör ett visst telefonnummer tillhör. Gränssnitten kan till exempel användas för att bygga så kallade appar till smarta telefoner. http://e-tjanster.pts.se/internet/api
 * 11:46, nu känner jag att jag närmar mig. sökningen "emil xml data utbildningar i sverige", gav mig http://www.sis.se/emil som första resultat. Den bilden känner jag igen! 
 ![flöde SUSA-navet](https://github.com/littlekid/skolresurser-api/blob/master/flode_emilsamarbete_2015-03-13.gif)
-
-
+Funderar på ifall jag får visa upp bilden över hela flödet, och var bilden ursprungligen kommer ifrån. Jag har ju för mig att jag sett den någon annanstans tidigare. Här finns en länk: "Instruktion för att hämta från SUSA-navet", som leder till:
+http://www.sis.se/PageFiles/11322/H%c3%a4mta%20EMIL%202.0-information%20fr%c3%a5n%20SUSA-navet.pdf
+Där har vi den! api-dokumentationen funnen! Har skolverket anstängt sig för att göra api-dokumentationen svår att hitta?
+Ser också att det tydligt står (c) 2013 Skolverket. Varför känner skolverket att det var en relevant och viktig upphovsrättsmarkering? 
 
 
 ## Användarvänligt API
@@ -46,7 +48,8 @@ Här fanns lite åsikter att skumma igenom:
 http://www.vinnova.se/sv/Var-verksamhet/Strategiskt-viktiga-kunskapsomraden/Tjanster-och-IKT/Oppen-innovation/Oppna-data/
 
 ## Datakällor:
-http://opendata.skolverket.se/
+* [Dokumentation Emil-endpoint, hämta öppen data ifrån skolverket, högskole- och universitetsutbildningar bl.a. ](http://www.sis.se/PageFiles/11322/H%c3%a4mta%20EMIL%202.0-information%20fr%c3%a5n%20SUSA-navet.pdf)
+* http://opendata.skolverket.se/
 
 
 
