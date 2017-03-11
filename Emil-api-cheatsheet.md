@@ -37,7 +37,7 @@ Ex: swe, eng
 #### EEMunicipality=<kod>[,<kod>[,...]]
 * Område, koder enligt SCB.
   * [Fyrsiffrig kod för kommun](https://github.com/littlekid/skolresurser-api/blob/master/data/kommunkoder-kommunnamn.csv)
-  ~* Sexsiffrig kod för "kommun och stadsdel / kommundel"~
+  ~~* Sexsiffrig kod för "kommun och stadsdel / kommundel"~~
   ?EEMunicipality=1880,1884
 
 ## Urval (urval är ju ett slags filter? ^^)
