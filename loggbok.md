@@ -57,10 +57,10 @@ Kontakta oss var ett läskigt anonymt formulär. Finns det ingen _person_, eller
 
 * Datumexempel. Förslag: Alltid använda datum där det är uppenbart vad som är månad och vad som är dag. D.v.s. istället för att köra ex: ?UpdatedSince=2013-02-10, så kunde en istället tagit datumen 2013-02-28, då blir det uppenbart att sista två siffrorna är dag, och kan inte förväxlas med månad.
 * Varför är vissa saker på engelska trots allt? Allt(?) annat har varit på svenska hittills, men så är FormOfStudy plötsligt på engelska. Jag ser gärna att allting är på engelska, just för att undvika åäö, men om det ska vara på svenska, så ska väl ändå allt vara konsekvent på svenska?
-* Hmmm... vad innebär utbildningstillfälle?
-   ?EEFormOfStudy=distance ?EEFormOfStudy=normal
+* Hmmm... vad innebär utbildningstillfälle? (?EEFormOfStudy=distance ?EEFormOfStudy=normal)
    - I dokumentationen står det "ett filter för att välja ut utbildningstillfällen som ges på distans eller inte".. men kurser kan väl ha en blandning av utbildning på distans och att en del prov ibland måste skrivas på orten? och "utbildningstillfälle", talar vi inte längre om hela kurser? Varför inte kalla det för _kurs_ om det är en kurs? Och om det inte är kurs, vad är det då?!
-  
+  - Under #### EELanguage=[lang], används plötsligt "kurstillfällen". Så är utbildningstillfällen och kurstillfällen samma sak eller olika saker?
+  Pratade med en Stefan, väldigt trevlig person ifrån SCB, och det är inte helt klart vad de 6siffriga koderna är.
   
   
   
