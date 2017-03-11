@@ -1,5 +1,6 @@
 defmodule Datamonster.Fetcher do
   def fetch() do
-    IO.puts "Hello!"
+    HTTPoison.start
+    HTTPoison.get! "http://victoriawagman.com"
   end
 end
