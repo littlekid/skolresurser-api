@@ -72,8 +72,11 @@ Kontakta oss var ett läskigt anonymt formulär. Finns det ingen _person_, eller
 
 De exempel som visas på sidan är:
     ?EEMunicipality=1880,1890
-18 är alltså:
-  
+18 är alltså: Örebro län, 1880 -> kommunen Örebro,  men 1890 som finns med i exemplet... finns inte med i datan ifrån SCB, sannolikt så att kommuner har slagits ihop helt enkelt. 
+  * Har också lärt mig att de som slutar på "80" är huvudkommuner i ett län, och fick tidigare varning om att tänka på att *behandla kommunkoderna som tecken, inte tal (siffror), eftersom en del börjar på 0*.
+* Läser "EIAcademicType filtrerar på typ av skolform. Giltiga värden finns specificerade i EMIL 2.0 i
+värdeförrådet OrganisationForm." och konstaterar att jag behöver leta upp vilka giltiga skolformer som finns. 
+Tänkte _jag söker på nätet_ efter " EMIL 2.0 i värdeförrådet OrganisationForm", men så kom jag just på att jag väl hade en sida uppe förut med information om Emil, kanske finns det där. Skummar loggboken efter url.
   
   
   
