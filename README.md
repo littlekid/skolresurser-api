@@ -2,8 +2,10 @@
 json-api för utbildningsdata är tanken
 
 * [ ] Kolla hur jag får ut data
+
 ** [x] Hitta dokumentationen (docs) för "Emil ngnting", har för mig att det var skolverket som tillgängliggjorde denna data?
 ** [ ] Läs igenom dokumentationen
+
 * [ ] Hämta data med Elixir.
 * [ ] Spara data i db.
 * [ ] Få upp api till egna db på api.skolresurser.se, inkl. enklare docs.
