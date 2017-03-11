@@ -29,7 +29,9 @@ Här fanns lite åsikter att skumma igenom:
 http://www.vinnova.se/sv/Var-verksamhet/Strategiskt-viktiga-kunskapsomraden/Tjanster-och-IKT/Oppen-innovation/Oppna-data/
 
 ## Datakällor:
-* [Dokumentation Emil-endpoint, hämta öppen data ifrån skolverket, högskole- och universitetsutbildningar bl.a. ](http://www.sis.se/PageFiles/11322/H%c3%a4mta%20EMIL%202.0-information%20fr%c3%a5n%20SUSA-navet.pdf)
+* Emil
+  * [Dokumentation: Om Emilprojektet](http://www.sis.se/emil)
+  * [Dokumentation Emil-apiet](http://www.sis.se/PageFiles/11322/H%c3%a4mta%20EMIL%202.0-information%20fr%c3%a5n%20SUSA-navet.pdf) (Hämta öppen data ifrån skolverket, högskole- och universitetsutbildningar bl.a.)
 * http://opendata.skolverket.se/
 
 
