@@ -11,6 +11,15 @@ json-api för utbildningsdata är tanken
     * [x] Parse:a xml-dokumentet
 * [ ] Spara data i db.
   * [x] Växla ifrån bar mix-projekt till phoenix, smidigare databaskoppling.
+  * [x] Fixa postgresstrul ^__^ + confa nginx.
+  * [ ] Model: educationalResources
+  * [ ] Iterera över alla resurser -> save to db som "educationalResource"
+    * [ ] Titel (SE/ENG)
+    * [ ] Beskrivning (SE/ENG)
+    * [ ] Lärosäte
+    * [ ] Kommun
+    * [ ] susa_id
+    * [ ] susa_str_id
 * [ ] Få upp api till egna db på api.skolresurser.se, inkl. enklare docs.
 * [ ] Få upp allting på vps
 * [ ] cronjob som hämtar uppdateringar en gång per dygn kanske.
