@@ -59,6 +59,7 @@ Jag är också övertygad om att de klassiska formerna av kurser och program, so
 * [ ] Få upp allting på vps
 * [ ] cronjob som hämtar uppdateringar en gång per dygn kanske.
 * [ ] webgränssnitt som konsumerar api:et
+* [x] Skriv ner tankar kring visionen
 
 Tankar och idéer:
 - Det vore ju trevligt om allmännheten kan bidra med nyckelord och att vi alla kan hjälpas åt att göra utbildningsresurser lättare att hitta och utforska.
