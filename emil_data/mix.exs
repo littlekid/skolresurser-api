@@ -30,7 +30,8 @@ defmodule EmilData.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.10.0"},
-      {:floki, "~> 0.14.0"}
+      {:floki, "~> 0.14.0"},
+      {:exml, "~>0.1.0"}
     ]
   end
 end

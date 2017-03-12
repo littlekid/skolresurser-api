@@ -45,7 +45,24 @@ defmodule Datamonster.Fetcher do
     end)
   end
 
-  defp store_document(document_xml) do
-    IO.inspect document_xml.body
+  defp store_document(resource_response) do
+    xml = IO.inspect resource_response.body
+    IO.puts ""
+
+    doc = Exml.parse xml
+    # Exml.get doc, "//educationInfo"
+    IO.inspect Exml.get doc, "//educationInfo/title"
+    IO.inspect Exml.get doc, "//educationInfo/form/@code"
+    IO.inspect Exml.get doc, "//educationInfo/educationLevel/@code"
+    IO.inspect Exml.get doc, "//educationInfo/description"
+
+    #Exml.get doc, "//book[1]/title/@lang"
+    #=> "en"
+
+    #Exml.get doc, "//title"
+    #=> ["Harry Potter", "Learning XML"
+    IO.puts ""
+    IO.puts ""
+    IO.puts ""
   end
 end
