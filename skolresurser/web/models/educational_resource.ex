@@ -26,6 +26,7 @@ defmodule Skolresurser.EducationalResource do
   def changeset(struct, params \\ %{}) do
     struct
     |> cast(params, [:title_swe, :title_eng, :description_swe, :description_eng, :subject_code, :provider, :eligible_for_student_aid, :degree, :educationLevel, :municipality, :susa_id, :susa_str_id, :expires, :last_edited])
-    |> validate_required([:title_swe, :title_eng, :description_swe, :description_eng, :subject_code, :provider, :eligible_for_student_aid, :degree, :educationLevel, :municipality, :susa_id, :susa_str_id, :expires, :last_edited])
+    #|> validate_required([:title_swe, :title_eng, :description_swe, :description_eng, :subject_code, :provider, :eligible_for_student_aid, :degree, :educationLevel, :municipality, :susa_id, :susa_str_id, :expires, :last_edited])
   end
+
 end

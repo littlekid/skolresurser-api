@@ -1,4 +1,7 @@
 defmodule Datamonster.Fetcher do
+  alias Skolresurser.EducationalResource
+  alias Skorlesurser.Repo
+
   def fetch() do
     #fetch_links() #TODO - Uncomment when you want to work with live data, for now work with links in file! :D
     fetch_documents()
@@ -36,7 +39,7 @@ defmodule Datamonster.Fetcher do
 
   defp fetch_documents() do
     File.stream!("./data/educational-resources-from-emil.xml", [])
-    |> Enum.take(4) # -work with just three during development :D
+    |> Enum.take(24) # -work with just three during development :D
     |> Enum.each(fn(url) ->
        url
        |> String.replace("\n", "")
@@ -51,18 +54,21 @@ defmodule Datamonster.Fetcher do
 
     doc = Exml.parse xml
     # Exml.get doc, "//educationInfo"
-    IO.inspect Exml.get doc, "//educationInfo/title"
-    IO.inspect Exml.get doc, "//educationInfo/form/@code"
-    IO.inspect Exml.get doc, "//educationInfo/educationLevel/@code"
-    IO.inspect Exml.get doc, "//educationInfo/description"
+    title = IO.inspect Exml.get doc, "//educationInfo/title"
+    #code Exml.get doc, "//educationInfo/form/@code"
+    #IO.inspect Exml.get doc, "//educationInfo/educationLevel/@code"
+    description = Exml.get doc, "//educationInfo/description"
 
-    #Exml.get doc, "//book[1]/title/@lang"
-    #=> "en"
+    unless is_nil(title) do
+      resource_params = %{title_swe: title, description_swe: description}
 
-    #Exml.get doc, "//title"
-    #=> ["Harry Potter", "Learning XML"
-    IO.puts ""
-    IO.puts ""
-    IO.puts ""
+      changeset = EducationalResource.changeset(%EducationalResource{}, resource_params)
+      Repo.insert changeset
+      IO.puts ""
+      IO.puts ""
+    end
   end
+
+
+
 end
