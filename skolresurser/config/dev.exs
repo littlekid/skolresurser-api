@@ -40,4 +40,6 @@ config :skolresurser, Skolresurser.Repo,
   password: "postgres",
   database: "skolresurser_dev",
   hostname: "localhost",
-  pool_size: 10
+  collation: "utf8_swedish_ci",
+  pool_size: 10,
+  port: 5432

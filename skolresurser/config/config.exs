@@ -11,7 +11,7 @@ config :skolresurser,
 
 # Configures the endpoint
 config :skolresurser, Skolresurser.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "skolresurser.dev"],
   secret_key_base: "tNddJU5TWPSeFfAkg9W4Pr8vk4LM+Boh67smZnb0vSBHjNVk44JfUC521AwSi+1g",
   render_errors: [view: Skolresurser.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Skolresurser.PubSub,
