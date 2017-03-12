@@ -37,7 +37,11 @@ defmodule Skolresurser.Mixfile do
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:httpoison, "~> 0.10.0"},
+     {:floki, "~> 0.14.0"},
+     {:exml, "~>0.1.0"}
+   ]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

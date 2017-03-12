@@ -1,0 +1,2 @@
+defmodule Datamonster do
+end
