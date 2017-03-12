@@ -1,20 +1,26 @@
-# Skolresurser
+# Skolresurser API
 
-To start your Phoenix app:
+## Kom igång
+Du kan besöka [`api.skolresurser.se/`](http://skolresruskolresurser.dev/) direkt i din webbläsare för att se svar ifrån api:et.
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Install Node.js dependencies with `npm install`
-  * Start Phoenix endpoint with `mix phoenix.server`
+<br>
+## Exempel
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+### Alla resurser
+    http://api.skolresurser.dev/educational-resources/
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+### Hämta resurs med id 124
+    http://api.skolresurser.dev/educational-resources/124
 
-## Learn more
+<br>
+## Dokumentation
 
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+### baseurl
+    api.skolresurser.se
+
+### Alla universitetsresurser
+/educational-resources
+
+
+## Detaljer
+Universitetskurser, gymnasieutbildningar, yrkeshögskoleutbildningar och högskoleutbildningar, program och kurser, hämtas ifrån SUSA-navet, skolverkets samlade datapunkt för utbildningsdata.
