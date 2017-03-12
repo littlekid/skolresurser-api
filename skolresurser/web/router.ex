@@ -23,6 +23,6 @@ defmodule Skolresurser.Router do
   scope "/api", Skolresurser do
     pipe_through :api
 
-    resources "/educational-resources", EducationalResource
+    resources "/educational-resources", EducationalResourceController
   end
 end

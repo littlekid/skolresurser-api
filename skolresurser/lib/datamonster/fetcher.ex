@@ -1,6 +1,6 @@
 defmodule Datamonster.Fetcher do
   alias Skolresurser.EducationalResource
-  alias Skorlesurser.Repo
+  alias Skolresurser.Repo
 
   def fetch() do
     #fetch_links() #TODO - Uncomment when you want to work with live data, for now work with links in file! :D
