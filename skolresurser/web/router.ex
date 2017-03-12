@@ -19,8 +19,10 @@ defmodule Skolresurser.Router do
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", Skolresurser do
-  #   pipe_through :api
-  # end
+  #Other scopes may use custom stacks.
+  scope "/api", Skolresurser do
+    pipe_through :api
+
+    resources "/educational-resources", EducationalResource, only: [:index, :show]
+  end
 end
