@@ -9,6 +9,7 @@ Intressanta möjliga användningsområden
 * Samköra data kring socioekonomiska förutsättningar, medellivslängd, partisympatier och andra parametrar, för att se vad det spelar för roll hur nära eller långt bort vidareutbildning finns tillgänglig.
   * Det kan också vara relevant att se vilka geografiska områden där det är glest med tillgång till undervisning i någon form där människor möts, och därk kan det vara lämpligt att se över initiativ till att öppna upp för föreningsliv, och organisationer som pinkprogramming, kodcentrum m.fl. att komma igång.
 * Samkör med data kring arbetslöshet, ifall kommunen och orten minskar drastigt i antal invånare, och se ifall snickeriverkstäder, där besökare kan lära sig i eget tempo vid sidan om andra arbeten, eller andra tydliga yrkesinriktade utbildningar, som matchar behov på orten, kan köras i omgångar, för att förändra tillgång på kompetens som behövs i området.
+  * Lättare att analysera vad vi erbjuder för utbildningar i Sverige, och vad de har för innehåll, i förhållande till den efterfrågan som finns på arbetsmarknaden.
 
 * skolresurser.se -> presentera en samling med material kring hur och vad du kan lära dig om det mesta. Upptäck kurser på distans, en e-bok, och filtrera fram just vad du vill ha:
   * Format (e-bok, video, ljud, handlett workshop/laboration)
