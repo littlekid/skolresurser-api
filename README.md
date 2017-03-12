@@ -3,12 +3,14 @@ json-api för utbildningsdata är tanken
 
 * [x] Hitta dokumentationen (docs) för "Emil ngnting", har för mig att det var skolverket som tillgängliggjorde denna data?
 * [x] Läs igenom dokumentationen
-* [ ] Hämta data med Elixir.
+* [x] Hämta data med Elixir.
   * [x] Nytt mix projekt.
-  * [ ] Lyckas hämta all data och spara som en stor XML.
+  * [x] Lyckas hämta all data och spara som en stor XML.
     * [x] Hämta hem listan med länkar till alla dokument. Sparas i xml-format, för att itereras över för att hämtas
-    * [ ] Iterera över listan med länkar och hämta hem innehållet i alla dokument.
-  * [ ] Spara data i db.
+    * [x] Iterera över listan med länkar och hämta hem innehållet i alla dokument.
+    * [x] Parse:a xml-dokumentet
+* [ ] Spara data i db.
+  * [x] Växla ifrån bar mix-projekt till phoenix, smidigare databaskoppling.
 * [ ] Få upp api till egna db på api.skolresurser.se, inkl. enklare docs.
 * [ ] Få upp allting på vps
 * [ ] cronjob som hämtar uppdateringar en gång per dygn kanske.
