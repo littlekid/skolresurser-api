@@ -1,5 +1,5 @@
 # Emil
-[Hämta data ifrån SUSA-navet (komplett dokumentation)](http://www.sis.se/PageFiles/11322/H%c3%a4mta%20EMIL%202.0-information%20fr%c3%a5n%20SUSA-navet.pdf)
+[Hämta data ifrån SUSA-navet (viss dokumentation)](http://www.sis.se/PageFiles/11322/H%c3%a4mta%20EMIL%202.0-information%20fr%c3%a5n%20SUSA-navet.pdf)
 
 ## Om api:et
 **baseurl** http://supernavet.skolverket.se/SusaNavExport/EmilExporter
