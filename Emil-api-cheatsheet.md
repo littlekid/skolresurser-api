@@ -77,4 +77,5 @@ Går bara att välja om du angivit minst ett filter (VARFÖR?)
     http://supernavet.skolverket.se/SusaNavExport/EmilObjectExporter?id=232965362&amp;strId=e.fbr.19446.354898
 
 ### Övrigt
-[Diverse förklaringar](http://www.sis.se/PageFiles/11322/10700%20Bilaga%20C.pdf)
+* [Diverse förklaringar](http://www.sis.se/PageFiles/11322/10700%20Bilaga%20C.pdf)
+* [Om projektet, med länkar till diverse dokument](http://www.sis.se/emil)
